@@ -33,29 +33,6 @@ if(NOT DEFINED CMAKE_INSTALL_LIBDIR)
 endif(NOT DEFINED CMAKE_INSTALL_LIBDIR)
 set(libdir ${CMAKE_INSTALL_PREFIX}/${CMAKE_INSTALL_LIBDIR})
 
-set(OLD_CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}")
-if ((MAKE_CXX_COMPILER_ID STREQUAL "GNU") OR (CMAKE_CXX_COMPILER_ID STREQUAL "Clang"))
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -stdlib=libc++")
-endif()
-check_cxx_source_compiles(
-"
-#include <memory>
-
-int main() {
-    std::shared_ptr<int>();
-}
-"
-ENTITYX_HAVE_CXX11_STDLIB
-)
-
-if (NOT ENTITYX_HAVE_CXX11_STDLIB)
-    message(STATUS "-- Not using -stdlib=libc++ (test failed to build)")
-    set(CMAKE_CXX_FLAGS "${OLD_CMAKE_CXX_FLAGS}")
-else ()
-    message(STATUS "-- Using -stdlib=libc++")
-endif ()
-
-
 # Misc features
 check_include_file("stdint.h" HAVE_STDINT_H)
 
