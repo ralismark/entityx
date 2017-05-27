@@ -12,8 +12,8 @@
 
 #include <string>
 #include <vector>
-#include "entityx/3rdparty/catch.hpp"
-#include "entityx/Event.h"
+#include "../../entityx/3rdparty/catch.hpp"
+#include "../../entityx/Event.h"
 
 
 using entityx::EventManager;

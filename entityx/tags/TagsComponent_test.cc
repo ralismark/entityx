@@ -11,8 +11,8 @@
 #define CATCH_CONFIG_MAIN
 
 #include <string>
-#include "entityx/3rdparty/catch.hpp"
-#include "entityx/tags/TagsComponent.h"
+#include "../../entityx/3rdparty/catch.hpp"
+#include "../../entityx/tags/TagsComponent.h"
 
 using namespace std;
 using namespace entityx;

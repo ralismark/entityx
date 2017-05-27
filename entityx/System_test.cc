@@ -12,9 +12,9 @@
 
 #include <string>
 #include <vector>
-#include "entityx/3rdparty/catch.hpp"
-#include "entityx/System.h"
-#include "entityx/quick.h"
+#include "../entityx/3rdparty/catch.hpp"
+#include "../entityx/System.h"
+#include "../entityx/quick.h"
 
 // using namespace std;
 using namespace entityx;

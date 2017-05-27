@@ -8,7 +8,7 @@
  * Author: Alec Thomas <alec@swapoff.org>
  */
 
-#include "entityx/System.h"
+#include "../entityx/System.h"
 
 namespace entityx {
 

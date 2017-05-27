@@ -17,8 +17,8 @@
 #include <vector>
 #include <set>
 #include <map>
-#include "entityx/3rdparty/catch.hpp"
-#include "entityx/entityx.h"
+#include "../entityx/3rdparty/catch.hpp"
+#include "../entityx/entityx.h"
 
 // using namespace std;
 using namespace entityx;

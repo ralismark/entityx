@@ -10,9 +10,9 @@
 
 #define CATCH_CONFIG_MAIN
 
-#include "entityx/3rdparty/catch.hpp"
-#include "entityx/deps/Dependencies.h"
-#include "entityx/quick.h"
+#include "../../entityx/3rdparty/catch.hpp"
+#include "../../entityx/deps/Dependencies.h"
+#include "../../entityx/quick.h"
 
 
 namespace deps = entityx::deps;

@@ -12,7 +12,7 @@
 
 #include <unordered_set>
 #include <string>
-#include "entityx/Entity.h"
+#include "../../entityx/Entity.h"
 
 namespace entityx {
 namespace tags {

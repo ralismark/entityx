@@ -2,9 +2,9 @@
 
 #include <iostream>
 #include <vector>
-#include "entityx/3rdparty/catch.hpp"
-#include "entityx/help/Timer.h"
-#include "entityx/Entity.h"
+#include "../entityx/3rdparty/catch.hpp"
+#include "../entityx/help/Timer.h"
+#include "../entityx/Entity.h"
 
 using std::uint64_t;
 using std::cout;
